@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>EcoQuímica</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🌱 EcoQuímica</h1>
+<p>Separe o lixo corretamente e aprenda química!</p>
+
+<div id="game">
+
+<h2 id="item"></h2>
+
+<div class="buttons">
+<button onclick="answer('papel')">📄 Papel</button>
+<button onclick="answer('plastico')">🧴 Plástico</button>
+<button onclick="answer('vidro')">🍾 Vidro</button>
+<button onclick="answer('metal')">🥫 Metal</button>
+</div>
+
+<p id="result"></p>
+
+<button onclick="nextQuestion()">Próximo</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
